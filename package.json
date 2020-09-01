@@ -1,0 +1,19 @@
+{
+  "name": "veliz-encrypt",
+  "version": "1.0.0",
+  "description": "Encriptar una password con el metodo veliz.",
+  "main": "encrypt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encriptar",
+    "encrypt",
+    "password"
+  ],
+  "author": "Paul veliz",
+  "license": "ISC",
+  "dependencies": {
+    "string-hex": "^1.0.0"
+  }
+}
