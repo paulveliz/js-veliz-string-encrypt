@@ -16,12 +16,12 @@
 
 <i>Ej: 6</i> <br>
 
-<b>3. Tomamos cada letra y extraemos el código ASCII (hexadecimal) de cada una.</b><br>
+<b>3. Tomamos cada letra y extraemos el código hexadecimal de cada una.</b><br>
 
 <i>Ej: Q = 81, W = 87, E = 69, R = 82, T = 84, Y = 89</i> <br>
 
 <b>
-    4. Multiplicamos la length por cada letra en ASCII. (Cada resultado de cada
+    4. Multiplicamos la length por cada letra[decimal] en hex. (Cada resultado de cada
     multiplicación se concatenará con la siguiente).
 </b> <br>
 <i>Ej: 6 x 81, 6 x 87, 6 x 69 …</i> <br>
@@ -29,7 +29,7 @@
 <i>Ej: *481 522 414 492 504 534 (Sin espacios).</i> <br>
 
 <b>
-    6. A cada resultado concatenado se va a convertir a hexadecimal. (Se
+    6. A cada resultado concatenado se va a convertir a hexadecimal nuevamente. (Se
     concatenará cada resultado al igual que el procedimiento anterior).
 </b> <br>
 <i>Ej: 481 = 30, 522 = 34 …</i> <br>
